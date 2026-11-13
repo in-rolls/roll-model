@@ -29,7 +29,7 @@ The browser test uses Playwright. Install a Chromium browser with `npx playwrigh
 
 ## How it works
 
-- `site/js/data.js` generates deterministic, clearly labelled example records and provides filtering, sorting, pagination, and CSV export.
+- `site/js/data.js` generates deterministic, clearly labeled example records and provides filtering, sorting, pagination, and CSV export.
 - `site/js/app.js` connects those operations to the interface. It puts record values into the DOM as text rather than HTML.
 - `site/index.html` and `site/styles.css` form the static site.
 - `tests/data.test.js` checks the data operations and synthetic-data boundary; `tests/ui.spec.js` exercises the interface in a browser.
